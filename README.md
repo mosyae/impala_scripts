@@ -1,5 +1,5 @@
 # Must be installed on Linux host
-# sudo yum install python-devel
+# sudo yum -y install python-devel
 # curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
 # sudo python get-pip.py
 # sudo pip install six
