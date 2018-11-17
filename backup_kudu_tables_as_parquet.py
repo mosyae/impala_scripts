@@ -1,3 +1,11 @@
+# Must be installed on Linux host
+# sudo yum install python-devel
+# curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
+# sudo python get-pip.py
+# sudo pip install six
+# sudo pip install bit_array
+# sudo pip install thrift
+# sudo pip install impyla
 import datetime
 from impala.dbapi import connect
 conn = connect(host='sf-mngdn2', port=21050)
