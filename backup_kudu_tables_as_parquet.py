@@ -2,6 +2,7 @@
 # sudo yum -y install python-devel
 # curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
 # sudo python get-pip.py
+# sudo yum install -y gcc
 # sudo pip install six
 # sudo pip install bit_array
 # sudo pip install thrift
