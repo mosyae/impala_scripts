@@ -8,7 +8,7 @@
 # sudo pip install impyla
 import datetime
 from impala.dbapi import connect
-conn = connect(host='dn1.pcb-il.co.il', port=21050)
+conn = connect(host='SERVER_NAME', port=21050)
 table_cursor = conn.cursor()
 table_cursor.execute('show tables')
 #************** CREATE DATABASE parquet_backup ********************
